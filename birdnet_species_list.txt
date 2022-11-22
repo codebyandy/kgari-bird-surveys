@@ -1,0 +1,118 @@
+Corvus orru_Torresian Crow
+Trichoglossus moluccanus_Rainbow Lorikeet
+Gymnorhina tibicen_Australian Magpie
+Rhipidura leucophrys_Willie-wagtail
+Grallina cyanoleuca_Magpie-lark
+Sphecotheres vieilloti_Australasian Figbird
+Hirundo neoxena_Welcome Swallow
+Vanellus miles_Masked Lapwing
+Dacelo novaeguineae_Laughing Kookaburra
+Manorina melanocephala_Noisy Miner
+Entomyzon cyanotis_Blue-faced Honeyeater
+Coracina novaehollandiae_Black-faced Cuckooshrike
+Streptopelia chinensis_Spotted Dove
+Lichmera indistincta_Brown Honeyeater
+Philemon citreogularis_Little Friarbird
+Eudynamys orientalis_Pacific Koel
+Meliphaga lewinii_Lewin's Honeyeater
+Todiramphus sanctus_Sacred Kingfisher
+Porphyrio melanotus_Australasian Swamphen
+Pachycephala rufiventris_Rufous Whistler
+Rhipidura albiscapa_Gray Fantail
+Artamus leucorynchus_White-breasted Woodswallow
+Cracticus nigrogularis_Pied Butcherbird
+Geopelia humeralis_Bar-shouldered Dove
+Malurus melanocephalus_Red-backed Fairywren
+Geopelia placida_Peaceful Dove
+Oriolus sagittatus_Olive-backed Oriole
+Zosterops lateralis_Silvereye
+Eurystomus orientalis_Dollarbird
+Merops ornatus_Rainbow Bee-eater
+Acridotheres tristis_Common Myna
+Dicrurus bracteatus_Spangled Drongo
+Philemon corniculatus_Noisy Friarbird
+Chroicocephalus novaehollandiae_Silver Gull
+Centropus phasianinus_Pheasant Coucal
+Pardalotus striatus_Striated Pardalote
+Scythrops novaehollandiae_Channel-billed Cuckoo
+Ardea alba_Great Egret
+Cacatua galerita_Sulphur-crested Cockatoo
+Psophodes olivaceus_Eastern Whipbird
+Cracticus torquatus_Gray Butcherbird
+Rhipidura rufifrons_Rufous Fantail
+Anthochaera chrysoptera_Little Wattlebird
+Bubulcus ibis_Cattle Egret
+Cacatua sanguinea_Little Corella
+Eolophus roseicapilla_Galah
+Passer domesticus_House Sparrow
+Myiagra rubecula_Leaden Flycatcher
+Melithreptus albogularis_White-throated Honeyeater
+Pandion haliaetus_Osprey
+Cacomantis flabelliformis_Fan-tailed Cuckoo
+Colluricincla harmonica_Gray Shrikethrush
+Sericornis frontalis_White-browed Scrubwren
+Eopsaltria australis_Eastern Yellow Robin
+Fulica atra_Eurasian Coot
+Gerygone olivacea_White-throated Gerygone
+Thalasseus bergii_Great Crested Tern
+Chrysococcyx lucidus_Shining Bronze-Cuckoo
+Numenius phaeopus_Whimbrel
+Cygnus atratus_Black Swan
+Strepera graculina_Pied Currawong
+Edolisoma tenuirostre_Common Cicadabird
+Alisterus scapularis_Australian King-Parrot
+Myzomela sanguinolenta_Scarlet Myzomela
+Falco peregrinus_Peregrine Falcon
+Himantopus leucocephalus_Pied Stilt
+Egretta garzetta_Little Egret
+Calidris acuminata_Sharp-tailed Sandpiper
+Cisticola exilis_Golden-headed Cisticola
+Acrocephalus australis_Australian Reed Warbler
+Tringa brevipes_Gray-tailed Tattler
+Milvus migrans_Black Kite
+Pachycephala pectoralis_Golden Whistler
+Haliastur indus_Brahminy Kite
+Dicaeum hirundinaceum_Mistletoebird
+Ardenna tenuirostris_Short-tailed Shearwater
+Arenaria interpres_Ruddy Turnstone
+Haliaeetus leucogaster_White-bellied Sea-Eagle
+Calidris alba_Sanderling
+Columba livia_Rock Pigeon
+Gallirallus philippensis_Buff-banded Rail
+Cincloramphus timoriensis_Tawny Grassbird
+Accipiter fasciatus_Brown Goshawk
+Monarcha melanopsis_Black-faced Monarch
+Macropygia phasianella_Brown Cuckoo-Dove
+Pluvialis fulva_Pacific Golden-Plover
+Pomatostomus temporalis_Gray-crowned Babbler
+Anas platyrhynchos_Mallard
+Acanthiza pusilla_Brown Thornbill
+Pluvialis squatarola_Black-bellied Plover
+Limosa lapponica_Bar-tailed Godwit
+Tringa incana_Wandering Tattler
+Phalacrocorax carbo_Great Cormorant
+Cacomantis variolosus_Brush Cuckoo
+Hydroprogne caspia_Caspian Tern
+Zapornia tabuensis_Spotless Crake
+Sturnus vulgaris_European Starling
+Todiramphus macleayii_Forest Kingfisher
+Sula dactylatra_Masked Booby
+Lalage tricolor_White-winged Triller
+Microeca fascinans_Jacky-winter
+Podiceps cristatus_Great Crested Grebe
+Ailuroedus crassirostris_Green Catbird
+Chlidonias hybrida_Whiskered Tern
+Ardenna pacifica_Wedge-tailed Shearwater
+Chlidonias leucopterus_White-winged Tern
+Gelochelidon nilotica_Gull-billed Tern
+Manorina melanophrys_Bell Miner
+Tyto alba_Barn Owl
+Plegadis falcinellus_Glossy Ibis
+Symposiachrus trivirgatus_Spectacled Monarch
+Anous minutus_Black Noddy
+Geopelia striata_Zebra Dove
+Synoicus ypsilophorus_Brown Quail
+Chrysococcyx minutillus_Little Bronze-Cuckoo
+Ptilinopus magnificus_Wompoo Fruit-Dove
+Tringa glareola_Wood Sandpiper
+Phaethon rubricauda_Red-tailed Tropicbird

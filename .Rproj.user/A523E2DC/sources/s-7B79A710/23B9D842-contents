@@ -73,19 +73,20 @@ length(unique(filter(irp_data_hc, site == "burned")$specie))
 # 3. SPECIES FREQUENCY #
 
 ```{r}
-freq_final %>% 
+freq_plot <- freq_final %>% 
   ggplot(aes(reorder(specie, count), count, fill=site)) +
   geom_bar(stat="identity", position = position_dodge()) +
   coord_flip() +
   labs(
-    title = "Specie Frequency (Any confidence)",
+    title = "Specie Frequency (>10% confidence)",
     x = "Specie",
     y = "Recordings Present",
     fill = "Site",
-    caption = "Note: 144 1-minute recordings were taken at each site in a day. This figure indicates how many recordings that each specie was detected in (at any confidence)."
+    # caption = "Note: 144 1-minute recordings were taken at each site in a day. This figure indicates how many recordings that each specie was detected in (at >10% confidence)."
   )
+ggsave(filename = "freq.png", freq_plot, width = 5, height = 10) 
 
-freq_final_hc %>% 
+freq_hc_plot <- freq_final_hc %>% 
   ggplot(aes(reorder(specie, count), count, fill=site)) +
   geom_bar(stat="identity", position = position_dodge()) +
   coord_flip() +
@@ -94,8 +95,9 @@ freq_final_hc %>%
     x = "Specie",
     y = "Recordings Present",
     fill = "Site",
-    caption = "Note: 144 1-minute recordings were taken at each site in a day. This figure indicates how many recordings that each specie was detected in (at >50% confidence)."
+   #  caption = "Note: 144 1-minute recordings were taken at each site in a day. This figure indicates how many recordings that each specie was detected in (at >50% confidence)."
   )
+ggsave(filename = "freq_hc.png", freq_hc_plot, width = 10, height = 7) 
 ```
 
 

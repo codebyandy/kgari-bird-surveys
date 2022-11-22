@@ -1,0 +1,25 @@
+"0","# Any confidence
+irp_data <- read.csv('IRP_data.csv') %>%
+  filter(date != ""11/4/2022"") %>% 
+  mutate(
+    hr = case_when(
+      substring(time, 2, 2) == "":"" ~ as.integer(substr(time, 1, 1)),
+      substring(time, 3, 3) == "":"" ~ as.integer(substr(time, 1, 2))
+    ),
+    min = case_when(
+      substring(time, 2, 2) == "":"" ~ as.integer(substr(time, 3, 4)),
+      substring(time, 3, 3) == "":"" ~ as.integer(substr(time, 4, 5))
+    )
+  ) %>% 
+  arrange(site, hr, min)
+"
+"2","Warning:"
+"2"," Problem with `mutate()` column `hr`.
+[34mi[39m `hr = case_when(...)`.
+[34mi[39m NAs introduced by coercion
+"
+"2","Warning:"
+"2"," Problem with `mutate()` column `min`.
+[34mi[39m `min = case_when(...)`.
+[34mi[39m NAs introduced by coercion
+"

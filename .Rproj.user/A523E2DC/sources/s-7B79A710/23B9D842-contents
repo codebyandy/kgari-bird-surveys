@@ -1,0 +1,187 @@
+
+NOTES:
+- hc = high confidence (>50%)
+
+```{r}
+library(tidyverse)
+```
+
+
+##########
+I. UNBURNED / BURNED STUDY
+
+# 1. CLEAN DATA #
+Create data frames with all observations, 1 replicate at each site: unburned/burned (24 hr recording)
+- irp_data: all observations
+- irp_data_hc: all observations >50% confidence
+```{r}
+# Any confidence
+irp_data <- read.csv('IRP_data.csv') %>%
+  filter(date != "11/4/2022") %>% 
+  mutate(
+    hr = case_when(
+      substring(time, 2, 2) == ":" ~ as.integer(substr(time, 1, 1)),
+      substring(time, 3, 3) == ":" ~ as.integer(substr(time, 1, 2))
+    ),
+    min = case_when(
+      substring(time, 2, 2) == ":" ~ as.integer(substr(time, 3, 4)),
+      substring(time, 3, 3) == ":" ~ as.integer(substr(time, 4, 5))
+    )
+  ) %>% 
+  arrange(site, hr, min)
+
+# High confidence
+irp_data_hc <- irp_data %>% filter(conf > 0.5)
+```
+
+Create data frames with specie frequency (number of recordings present)
+```{r}
+# Any confidence
+ub_freq <- data.frame(table(filter(irp_data, site == "unburned")$specie))
+b_freq <- data.frame(table(filter(irp_data, site == "burned")$specie))
+colnames(ub_freq) <- c("specie", "unburned")
+colnames(b_freq) <- c("specie", "burned")
+
+freq <- merge(ub_freq, b_freq, all = TRUE)
+freq[is.na(freq)] <- 0
+freq_final <- pivot_longer(freq, names_to = "site", cols=c(burned, unburned), values_to = "count")
+
+# High confidence
+ub_freq_hc <- data.frame(table(filter(irp_data_hc, site == "unburned")$specie))
+b_freq_hc <- data.frame(table(filter(irp_data_hc, site == "burned")$specie))
+colnames(ub_freq_hc) <- c("specie", "unburned")
+colnames(b_freq_hc) <- c("specie", "burned")
+
+freq_hc <- merge(ub_freq_hc, b_freq_hc, all = TRUE)
+freq_hc[is.na(freq_hc)] <- 0
+freq_final_hc <- pivot_longer(freq_hc, names_to = "site", cols=c(burned, unburned), values_to = "count")
+```
+
+
+# 2. SPECIES RICHNESS #
+Species richness unburned vs. burned (any confidence)
+```{r}
+length(unique(filter(irp_data, site == "unburned")$specie))
+length(unique(filter(irp_data, site == "burned")$specie))
+```
+Species richness unburned vs. burned (>50% confidence)
+```{r}
+length(unique(filter(irp_data_hc, site == "unburned")$specie))
+length(unique(filter(irp_data_hc, site == "burned")$specie))
+```
+
+# 3. SPECIES FREQUENCY #
+
+```{r}
+freq_final %>% 
+  ggplot(aes(reorder(specie, count), count, fill=site)) +
+  geom_bar(stat="identity", position = position_dodge()) +
+  coord_flip() +
+  labs(
+    title = "Specie Frequency (Any confidence)",
+    x = "Specie",
+    y = "Recordings Present",
+    fill = "Site",
+    caption = "Note: 144 1-minute recordings were taken at each site in a day. This figure indicates how many recordings that each specie was detected in (at any confidence)."
+  )
+
+freq_final_hc %>% 
+  ggplot(aes(reorder(specie, count), count, fill=site)) +
+  geom_bar(stat="identity", position = position_dodge()) +
+  coord_flip() +
+  labs(
+    title = "Specie Frequency (>50% confidence)",
+    x = "Specie",
+    y = "Recordings Present",
+    fill = "Site",
+    caption = "Note: 144 1-minute recordings were taken at each site in a day. This figure indicates how many recordings that each specie was detected in (at >50% confidence)."
+  )
+```
+
+
+
+
+##########
+II. DILLI STUDY
+
+# 1. CLEAN DATA #
+Create data frames with all observation
+- dilli_data: all observations
+- dilli_data_hc: all observations >50% confidence
+```{r}
+# Any confidence
+dilli_data <- read.csv('dilli_data.csv') %>%
+  mutate(
+    hr = case_when(
+      substring(time, 2, 2) == ":" ~ as.integer(substr(time, 1, 1)),
+      substring(time, 3, 3) == ":" ~ as.integer(substr(time, 1, 2))
+    ),
+    min = case_when(
+      substring(time, 2, 2) == ":" ~ as.integer(substr(time, 3, 4)),
+      substring(time, 3, 3) == ":" ~ as.integer(substr(time, 4, 5))
+    )
+  ) %>% 
+  arrange(hr, min) %>% 
+  filter(hr < 22)
+
+# High confidence
+dilli_data_hc <- dilli_data %>% filter(conf > 0.5)
+```
+
+Create data frames with specie frequency (number of recordings present)
+```{r}
+# Any confidence
+dilli_freq <- data.frame(table(dilli_data$specie))
+colnames(dilli_freq) <- c("specie", "count")
+dilli_freq[is.na(dilli_freq)] <- 0
+
+# High confidence
+dilli_freq_hc <- data.frame(table(dilli_data_hc$specie))
+colnames(dilli_freq_hc) <- c("specie", "count")
+dilli_freq_hc[is.na(dilli_freq_hc)] <- 0
+```
+
+
+# 2. SPECIES RICHNESS #
+Species richness unburned vs. burned (any confidence)
+```{r}
+length(unique(dilli_data$specie))
+```
+Species richness unburned vs. burned (>50% confidence)
+```{r}
+length(unique(dilli_data_hc$specie))
+```
+
+
+# 3. SPECIES FREQUENCY #
+
+```{r}
+dilli_freq %>% 
+  ggplot(aes(reorder(specie, count), count)) +
+  geom_bar(stat="identity") +
+  coord_flip() +
+  labs(
+    title = "Dilli Specie Frequency (Any confidence)",
+    x = "Specie",
+    y = "Recordings Present",
+    fill = "Site",
+    caption = "Note: 16 10-minute recordings were taken throughout the day. This figure indicates how many recordings that each specie was detected in  (at any confidence)."
+  )
+
+dilli_freq_hc %>% 
+  ggplot(aes(reorder(specie, count), count)) +
+  geom_bar(stat="identity") +
+  coord_flip() +
+  labs(
+    title = "Dilli Specie Frequency (>50% confidence)",
+    x = "Specie",
+    y = "Recordings Present",
+    fill = "Site",
+    caption = "Note: 16 10-minute recordings were taken throughout the day. This figure indicates how many recordings that each specie was detected in (at >50% confidence)."
+  )
+```
+
+
+
+
+

@@ -1,0 +1,5 @@
+
+```{r}
+irp_data <- read.csv('IRP_data.csv')
+```
+

@@ -1,0 +1,26 @@
+"0","# Any confidence"
+"0","dilli_data <- read.csv('dilli_data.csv') %>%"
+"0","  mutate("
+"0","    hr = case_when("
+"0","      substring(time, 2, 2) == "":"" ~ as.integer(substr(time, 1, 1)),"
+"0","      substring(time, 3, 3) == "":"" ~ as.integer(substr(time, 1, 2))"
+"0","    ),"
+"0","    min = case_when("
+"0","      substring(time, 2, 2) == "":"" ~ as.integer(substr(time, 3, 4)),"
+"0","      substring(time, 3, 3) == "":"" ~ as.integer(substr(time, 4, 5))"
+"0","    )"
+"0","  ) %>% "
+"0","  arrange(hr, min) %>% "
+"0","  filter(hr < 22)"
+"2","Warning:"
+"2"," Problem with `mutate()` column `hr`.
+[34mi[39m `hr = case_when(...)`.
+[34mi[39m NAs introduced by coercion
+"
+"2","Warning:"
+"2"," Problem with `mutate()` column `min`.
+[34mi[39m `min = case_when(...)`.
+[34mi[39m NAs introduced by coercion
+"
+"0","# High confidence"
+"0","dilli_data_hc <- dilli_data %>% filter(conf > 0.5)"

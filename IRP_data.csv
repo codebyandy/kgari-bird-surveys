@@ -1,0 +1,186 @@
+date,time,site,specie,conf
+10/31/2022,4:20,unburned,Eastern Yellow Robin,0.1051
+10/31/2022,4:30,unburned,Red-backed Fairywren,0.5061
+10/31/2022,4:30,unburned,Lewin's Honeyeater,0.3033
+10/31/2022,4:30,unburned,White-throated Honeyeater,0.626
+10/31/2022,4:30,unburned,Brown Gerygone,0.2216
+10/31/2022,4:30,unburned,Rufous Fantail,0.1046
+10/31/2022,4:30,unburned,Rufous Whistler,0.106
+10/31/2022,4:30,unburned,Australian Magpie,0.1007
+10/31/2022,4:30,unburned,Leaden Flycatcher,0.1028
+10/31/2022,4:30,unburned,Common Sandpiper,0.2592
+10/31/2022,4:40,unburned,Rufous Whistler,0.2692
+10/31/2022,4:40,unburned,Red-backed Fairywren,0.1034
+10/31/2022,4:40,unburned,Brown Honeyeater,0.1026
+10/31/2022,4:40,unburned,Leaden Flycatcher,0.4249
+10/31/2022,4:40,unburned,Lewin's Honeyeater,0.2905
+10/31/2022,4:40,unburned,White-throated Honeyeater,0.5303
+10/31/2022,4:50,unburned,White-throated Honeyeater,0.483
+10/31/2022,4:50,unburned,Rufous Whistler,0.116
+10/31/2022,4:50,unburned,Lewin's Honeyeater,0.4588
+10/31/2022,5:00,unburned,Gray Shrikethrush,0.1354
+10/31/2022,5:00,unburned,Large-billed Scrubwren,0.1267
+10/31/2022,5:00,unburned,Mistletoebird,0.1109
+10/31/2022,5:00,unburned,Rainbow Lorikeet,0.4834
+10/31/2022,5:00,unburned,Buff-banded Rail,0.4043
+10/31/2022,5:00,unburned,Little Wattlebird,0.1936
+10/31/2022,5:00,unburned,Australian Magpie,0.1513
+10/31/2022,5:10,unburned,Pied Butcherbird,0.3636
+10/31/2022,5:10,unburned,Australasian Figbird,0.8268
+10/31/2022,5:20,unburned,Brown Gerygone,0.1338
+10/31/2022,5:20,unburned,Mistletoebird,0.1005
+10/31/2022,5:20,unburned,Lewin's Honeyeater,0.1081
+10/31/2022,5:20,unburned,Gray Fantail,0.2298
+10/31/2022,5:20,unburned,Leaden Flycatcher,0.206
+10/31/2022,5:20,unburned,White-throated Gerygone,0.2004
+10/31/2022,5:20,unburned,Rufous Whistler,0.183
+10/31/2022,5:30,unburned,Eastern Whipbird,0.1711
+10/31/2022,5:30,unburned,Brown Honeyeater,0.3953
+10/31/2022,5:30,unburned,Rainbow Lorikeet,0.2417
+10/31/2022,5:50,unburned,Lewin's Honeyeater,0.1909
+10/31/2022,5:50,unburned,Rufous Whistler,0.3928
+10/31/2022,5:50,unburned,Brown Honeyeater,0.1044
+10/31/2022,5:50,unburned,Golden Whistler,0.1237
+10/31/2022,6:00,unburned,Little Wattlebird,0.1084
+10/31/2022,6:00,unburned,Common Sandpiper,0.1111
+10/31/2022,6:00,unburned,Australasian Figbird,0.1894
+10/31/2022,6:00,unburned,Yellow-faced Honeyeater,0.1799
+10/31/2022,6:10,unburned,Brown Honeyeater,0.1327
+10/31/2022,6:20,unburned,Pheasant Coucal,0.1652
+10/31/2022,6:20,unburned,Leaden Flycatcher,0.1271
+10/31/2022,6:30,unburned,Rufous Whistler,0.5041
+10/31/2022,6:30,unburned,Gray Shrikethrush,0.1461
+10/31/2022,6:30,unburned,Leaden Flycatcher,0.1362
+10/31/2022,6:30,unburned,Brown Honeyeater,0.2035
+10/31/2022,6:30,unburned,Forest Kingfisher,0.1459
+10/31/2022,6:40,unburned,Yellow-faced Honeyeater,0.1063
+10/31/2022,6:40,unburned,Pheasant Coucal,0.131
+10/31/2022,6:40,unburned,Torresian Crow,0.1007
+10/31/2022,6:40,unburned,Pacific Koel,0.4377
+10/31/2022,6:50,unburned,White-throated Gerygone,0.1058
+10/31/2022,6:50,unburned,Sacred Kingfisher,0.1023
+10/31/2022,6:50,unburned,Olive-backed Oriole,0.1238
+10/31/2022,6:50,unburned,Pacific Koel,0.6494
+10/31/2022,6:50,unburned,Pheasant Coucal,0.1382
+10/31/2022,6:50,unburned,White-throated Honeyeater,0.3241
+10/31/2022,6:50,unburned,Leaden Flycatcher,0.13
+10/31/2022,6:50,unburned,Common Cicadabird,0.1141
+10/31/2022,6:50,unburned,Gray Shrikethrush,0.1113
+10/31/2022,7:10,unburned,Leaden Flycatcher,0.1358
+10/31/2022,7:10,unburned,Scarlet Myzomela,0.313
+10/31/2022,7:10,unburned,Mistletoebird,0.1309
+10/31/2022,7:10,unburned,Gray Shrikethrush,0.182
+10/31/2022,7:20,unburned,Pacific Koel,0.1112
+10/31/2022,7:20,unburned,Leaden Flycatcher,0.393
+10/31/2022,7:20,unburned,Mistletoebird,0.6222
+10/31/2022,7:20,unburned,Pheasant Coucal,0.2057
+10/31/2022,7:20,unburned,Rufous Whistler,0.1068
+10/31/2022,7:30,unburned,White-browed Scrubwren,0.1278
+10/31/2022,7:40,unburned,Gray Shrikethrush,0.1587
+10/31/2022,7:40,unburned,Leaden Flycatcher,0.1089
+10/31/2022,7:40,unburned,Little Friarbird,0.1709
+10/31/2022,7:50,unburned,Leaden Flycatcher,0.7684
+10/31/2022,8:10,unburned,Gray Shrikethrush,0.1658
+10/31/2022,8:10,unburned,White-throated Honeyeater,0.1757
+10/31/2022,8:10,unburned,Common Sandpiper,0.1653
+10/31/2022,8:10,unburned,Torresian Crow,0.1875
+10/31/2022,8:10,unburned,Laughing Kookaburra,0.3428
+10/31/2022,8:10,unburned,Noisy Friarbird,0.1048
+10/31/2022,8:10,unburned,Pied Butcherbird,0.1793
+10/31/2022,8:20,unburned,Gray Shrikethrush,0.1143
+10/31/2022,8:20,unburned,Little Friarbird,0.1529
+10/31/2022,8:20,unburned,White-throated Honeyeater,0.5861
+10/31/2022,8:40,unburned,Common Sandpiper,0.1506
+10/31/2022,8:40,unburned,Mistletoebird,0.1353
+10/31/2022,9:10,unburned,Large-billed Scrubwren,0.1803
+10/31/2022,10:00,unburned,Lewin's Honeyeater,0.1656
+10/31/2022,10:10,unburned,Pacific Koel,0.2228
+10/31/2022,10:40,unburned,Brush Cuckoo,0.2065
+10/31/2022,11:10,unburned,Mistletoebird,0.2573
+10/31/2022,11:10,unburned,Large-billed Scrubwren,0.1175
+10/31/2022,11:30,unburned,Lewin's Honeyeater,0.1067
+10/31/2022,11:30,unburned,Whimbrel,0.2095
+10/31/2022,12:40,unburned,Blue-faced Honeyeater,0.1461
+10/31/2022,14:20,unburned,Gray Shrikethrush,0.4393
+10/31/2022,15:20,unburned,Brush Cuckoo,0.3036
+10/31/2022,15:30,unburned,Osprey,0.6412
+10/31/2022,15:30,unburned,Noisy Friarbird,0.2021
+10/31/2022,15:30,unburned,Striated Pardalote,0.116
+10/31/2022,15:30,unburned,Common Cicadabird,0.253
+10/31/2022,15:30,unburned,Gray Shrikethrush,0.1428
+10/31/2022,15:50,unburned,White-throated Honeyeater,0.9756
+10/31/2022,15:50,unburned,Common Sandpiper,0.4484
+10/31/2022,15:50,unburned,Gray Shrikethrush,0.1049
+10/31/2022,16:20,unburned,White-throated Honeyeater,0.2641
+10/31/2022,16:20,unburned,Common Sandpiper,0.2628
+10/31/2022,17:30,burned,Wandering Tattler,0.2942
+10/31/2022,17:30,burned,Common Cicadabird,0.1245
+10/31/2022,17:30,burned,White-throated Treecreeper,0.1032
+10/31/2022,17:40,burned,Pheasant Coucal,0.1434
+10/31/2022,17:40,burned,Black-faced Cuckooshrike,0.6542
+10/31/2022,17:50,burned,Eastern Whipbird,0.3383
+10/31/2022,17:50,burned,Lewin's Honeyeater,0.2456
+10/31/2022,18:10,burned,White-throated Honeyeater,0.7489
+11/1/2022,4:40,burned,Eastern Yellow Robin,0.5485
+11/1/2022,4:50,burned,Common Sandpiper,0.2761
+11/1/2022,4:50,burned,Eastern Yellow Robin,0.894
+11/1/2022,4:50,burned,White-throated Treecreeper,0.2519
+11/1/2022,4:50,burned,Bell Miner,0.1279
+11/1/2022,5:20,burned,Mistletoebird,0.9992
+11/1/2022,5:20,burned,Large-billed Scrubwren,0.1218
+11/1/2022,5:40,burned,Mistletoebird,0.3254
+11/1/2022,6:20,burned,Rainbow Lorikeet,0.1115
+11/1/2022,6:40,burned,Wood Sandpiper,0.2949
+11/1/2022,6:40,burned,Noisy Friarbird,0.1301
+11/1/2022,8:20,burned,Mistletoebird,0.7942
+11/1/2022,9:50,burned,Brown Cuckoo-Dove,0.1958
+11/1/2022,9:50,burned,Bar-shouldered Dove,0.2469
+11/1/2022,10:00,burned,Bar-shouldered Dove,0.2766
+11/1/2022,10:30,burned,Rufous Fantail,0.1037
+11/1/2022,10:30,burned,Mistletoebird,0.5891
+11/1/2022,11:00,burned,Gray Shrikethrush,0.3736
+11/1/2022,11:00,burned,Lewin's Honeyeater,0.2585
+11/1/2022,11:50,burned,Gray Shrikethrush,0.2568
+11/1/2022,12:20,burned,White-throated Honeyeater,0.5145
+11/1/2022,12:50,burned,Gray Shrikethrush,0.2133
+11/1/2022,13:40,burned,Gray Shrikethrush,0.2473
+11/1/2022,13:50,burned,Gray Shrikethrush,0.1934
+11/1/2022,14:10,burned,Rufous Whistler,0.6578
+11/1/2022,14:30,burned,Gray Shrikethrush,0.1271
+11/1/2022,16:40,burned,Mistletoebird,0.988
+11/1/2022,17:20,burned,Lewin's Honeyeater,0.5808
+11/1/2022,17:30,burned,Brown Cuckoo-Dove,0.2919
+11/1/2022,17:40,burned,Whimbrel,0.1364
+11/3/2022,23:50,unburned,Wood Sandpiper,0.105
+11/4/2022,4:30,unburned,Leaden Flycatcher,0.3438
+11/4/2022,4:30,unburned,Lewin's Honeyeater,0.1278
+11/4/2022,4:30,unburned,White-throated Treecreeper,0.1017
+11/4/2022,4:30,unburned,Brown Honeyeater,0.1217
+11/4/2022,4:40,unburned,Gray Shrikethrush,0.3425
+11/4/2022,4:40,unburned,Leaden Flycatcher,0.2517
+11/4/2022,4:50,unburned,Leaden Flycatcher,0.1534
+11/4/2022,4:50,unburned,Lewin's Honeyeater,0.1111
+11/4/2022,5:00,unburned,Noisy Friarbird,0.9899
+11/4/2022,5:00,unburned,Little Wattlebird,0.7055
+11/4/2022,5:00,unburned,Australian Magpie,0.1075
+11/4/2022,5:00,unburned,Eurasian Coot,0.3182
+11/4/2022,5:10,unburned,Mistletoebird,0.9767
+11/4/2022,5:10,unburned,Leaden Flycatcher,0.1522
+11/4/2022,5:20,unburned,Lewin's Honeyeater,0.9763
+11/4/2022,5:40,unburned,Mistletoebird,0.1838
+11/4/2022,5:50,unburned,Leaden Flycatcher,0.7782
+11/4/2022,6:00,unburned,Scarlet Myzomela,0.4949
+11/4/2022,6:20,unburned,Mistletoebird,0.5357
+11/4/2022,6:20,unburned,Scarlet Myzomela,0.2337
+11/4/2022,6:20,unburned,Lewin's Honeyeater,0.8909
+11/4/2022,6:40,unburned,Mistletoebird,0.1412
+11/4/2022,6:40,unburned,Large-billed Scrubwren,0.1725
+11/4/2022,7:00,unburned,Gray Shrikethrush,0.1069
+11/4/2022,7:00,unburned,Mistletoebird,0.7237
+11/4/2022,7:00,unburned,White-browed Scrubwren,0.1132
+11/4/2022,7:10,unburned,Rufous Fantail,0.1154
+11/4/2022,7:10,unburned,Pheasant Coucal,0.1268
+11/4/2022,7:30,unburned,Red-tailed Tropicbird,0.1621
+11/4/2022,7:30,unburned,Rock Pigeon,0.249
+11/4/2022,8:20,unburned,Rainbow Lorikeet,0.1235
+11/4/2022,8:30,unburned,Rock Pigeon,0.2574
